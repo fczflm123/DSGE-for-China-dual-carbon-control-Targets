@@ -62,64 +62,9 @@ This code is released under the MIT License (see `LICENSE`).
 
 If you use this package in your research, please cite:
 
-```
-@misc{dual_control_dsge_code,
-  author  = {Your Name},
-  title   = {Sequencing China’s Carbon Dual‑Control Targets: A DSGE Assessment of Emission‑Intensity Pathways and High‑Quality Economic Development — Replication Package},
-  year    = {2025},
-  howpublished = {GitHub},
-  url     = {https://github.com/USERNAME/dual-control-dsge}
-}
-Appendix A. Complete DSGE Model Equations
-This appendix collects, in compact notation, all equilibrium conditions of the two-sector New-Keynesian DSGE model described in Sections 3.2–3.7. Time subscripts are omitted when not ambiguous; all real variables are expressed in per-capita terms; nominal rigidities are abstracted away.
-A.1 Households
-Representative household maximises
-■((max)┬({C_t,L_t,K_(t+1)}) U=E_0 ∑_(t=0)^∞▒β^t [(C_t^(1-σ)-1)/(1-σ)-χ (L_t^(1+ϕ))/(1+ϕ)],)         (A1)
-subject to the budget constraint and capital accumulation:
-■(C_t+I_t=W_t L_t+r_t K_t+Π_t-T_t,)                  (A2)
-■(K_(t+1)=(1-δ)K_t+I_t.)                          (A3)
-First-order conditions give
-	Euler equation
-■(C_t^(-σ)=βE_t [C_(t+1)^(-σ) (1+r_(t+1)-δ)];)                   (A4)
-	Labour–leisure condition
-■(χL_t^ϕ=W_t C_t^(-σ).)                                  (A5)
-A.2 Firms
-Two competitive sectors share a common TFP level A_t. Cobb–Douglas technologies:
-■(Y_(H,t)=A_t K_(H,t)^α L_(H,t)^(1-α),〖   Y〗_(L,t)=A_t K_(L,t)^α L_(L,t)^(1-α).)              (A6)
-With flexible factors, marginal-value conditions are identical across sectors:
-■((1-α) A_t K_(i,t)^α L_(i,t)^(-α)=W_t,αA_t K_(i,t)^(α-1) L_(i,t)^(1-α)=r_t,i∈{H,L}.) (A7)________________________________________
-A.3 Carbon-intensity constraint
-Total emissions (normalised emission factor = 1):
-■(E_t=Y_(H,t).)                                       (A8)
-Economy-wide carbon intensity
-■(γ_t≡E_t/Y_t =Y_(H,t)/(Y_(H,t)+Y_(L,t) ),)                         (A9)
-must satisfy the policy rule
-■(γ_t≤μ_t,μ_t " exogenous," μ_2030=0.8.)           (A10)
-Operationally, firms perceive an output-loss wedge:
-■(Y_(H,t)^"eff" =Y_(H,t)^"free" -τ/2((Y_(H,t)^"free" )/Y_t -μ_t )^2 Y_t,〖   Y〗_(H,t)=Y_(H,t)^"eff" ,)    (A11)
-where Y_(H,t)^"free"  denotes hypothetical output without policy, and τ>0 controls abatement cost curvature.
-A.4 Resource constraints and market clearing
-	Goods
-■(Y_t=Y_(H,t)+Y_(L,t)=C_t+I_t+X_t,)            (A12)
-where X_t captures net external demand (can be set to 0 in a closed-economy version).
-	Factors
-■(K_(H,t)+K_(L,t)=K_t,      L_(H,t)+L_(L,t)=L_t.)       (A13)
-	Capital accumulation
-■(K_(t+1)=(1-δ)K_t+I_t ("re-stated" ).)        (A14)
-________________________________________
-A.5 Exogenous processes
-	Total-factor productivity
-■(ln⁡A_t=ρ_A ln⁡A_(t-1)+ε_t^A,〖  ε〗_t^A∼N(0,σ_A^2);)  (A15)
-	External demand
-■(X_t=ρ_X X_(t-1)+ε_t^X,ε_t^X∼N(0,σ_X^2).)       (A16)________________________________________
-A.6 Equilibrium definition
-A competitive equilibrium is a sequence
-{C_t,L_t,K_(t+1),K_(i,t),L_(i,t),Y_(i,t),Y_t,W_t,r_t,E_t,γ_t }_(t=0)^∞,i∈{H,L},
-________________________________________
-A.7 Calibration baseline (for reference)
-■(β=0.970,σ=2,ϕ=2,α=0.40,δ=0.10,χ=40.165,τ=0.50,ρ_A=0.80,ρ_X=0.30.)
-Steady-state ratios replicate Chinese macro data for 2024 (see Table 3).
+## How to cite
 
-This appendix provides the complete set of structural equations that underlie the simulations in Sections 4–5. Dynare/Matlab implementation is supplied in Supplementary Materials (SM_A).
+> Fu, C., Zhao, X.*, Wang, X., Tang, X., Cheng, H., & Wang, W. (2025).  
+> **Sequencing China's Carbon Dual-Control Targets: A DSGE Assessment of Emission-Intensity Pathways and High-Quality Economic Development** (Version 1.0.1) [Computer software]. Zenodo. https://doi.org/10.5281/zenodo.15288913
 
-```
+
