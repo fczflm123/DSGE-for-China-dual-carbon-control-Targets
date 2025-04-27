@@ -1,0 +1,26 @@
+cff-version: 1.2.0
+message: "To cite this repository, please use the following metadata."
+title: "Sequencing China’s Carbon Dual-Control Targets: A DSGE Assessment of Emission-Intensity Pathways and High-Quality Economic Development"
+version: "1.0.0"
+date-released: "2025-04-27"
+authors:
+  - family-names: Fu
+    given-names: Chonghui
+    affiliation: School of Humanities and Management, Guangdong Medical University, Guangdong, China
+  - family-names: Zhao
+    given-names: Xujie
+    affiliation: Guangzhou Institute of Energy Conversion, Chinese Academy of Sciences, Guangdong, China
+    email: fczflm@139.com
+  - family-names: Wang
+    given-names: Xiaotong
+    affiliation: School of Humanities and Management, Guangdong Medical University, Guangdong, China
+  - family-names: Tang
+    given-names: Xunchi
+    affiliation: School of Artificial Intelligence, South China Normal University, Guangdong, China
+  - family-names: Cheng
+    given-names: Hang
+    affiliation: School of Humanities and Management, Guangdong Medical University, Guangdong, China
+  - family-names: Wang
+    given-names: Wenjun
+    affiliation: School of Humanities and Management, Guangdong Medical University, Guangdong, China
+doi: ""
