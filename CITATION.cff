@@ -3,6 +3,7 @@ message: "To cite this repository, please use the following metadata."
 title: "Sequencing China’s Carbon Dual-Control Targets: A DSGE Assessment of Emission-Intensity Pathways and High-Quality Economic Development"
 version: "1.0.0"
 date-released: "2025-04-27"
+doi: 10.5281/zenodo.15288913
 authors:
   - family-names: Fu
     given-names: Chonghui
